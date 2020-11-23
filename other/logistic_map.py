@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import sys
 
+sys.setrecursionlimit(10**7)
+
 if sys.argv[1] == '--help':
     print("logistic_map.py rate initial iterations")
     exit(0)
